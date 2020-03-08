@@ -1,0 +1,10 @@
+body img {
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 40%
+}
+
+h2 {
+    background-color: #fff;
+    color: blue;
+}
