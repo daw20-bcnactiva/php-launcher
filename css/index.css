@@ -1,0 +1,35 @@
+body {
+    font-family: "Share Tech Mono", Helvetica, Arial, sans-serif, monospace;
+    line-height: 1;
+
+}
+
+/*  Ponemos un elemento del mismo tamaño que el body con el fondo que nos interesa y las modificaciones
+    que queramos como opacity, etc ...
+*/
+body::after {
+    content: "";
+    background: url("../img/aula-grey.png");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    border-radius: 15px;
+  }
+
+body img {
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 40%;
+    opacity: 30%;
+    
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0);
+    color: blue;
+    font-size: 30px;
+}
